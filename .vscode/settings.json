@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Playground",
+            "database": "${workspaceFolder:DBs}/marketplace.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
