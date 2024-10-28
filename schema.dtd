@@ -1,0 +1,31 @@
+<!ELEMENT supermarket_data (order*)>
+<!ATTLIST supermarket_data version CDATA #REQUIRED>
+
+<!ELEMENT order (date, customer, order_details, total_amount)>
+<!ATTLIST order order_id CDATA #REQUIRED>
+
+<!ELEMENT date (#PCDATA)>
+
+<!ELEMENT customer (name, surname, discount, contact*)>
+<!ATTLIST customer customer_id CDATA #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT discount (#PCDATA)>
+
+<!ELEMENT contact (#PCDATA)>
+<!ATTLIST contact type CDATA #REQUIRED>
+
+<!ELEMENT order_details (product*)>
+
+<!ELEMENT product (title, category, manufacturer, price, discount_price, quantity)>
+<!ATTLIST product product_id CDATA #REQUIRED>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT manufacturer (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT discount_price (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+
+<!ELEMENT total_amount (#PCDATA)>

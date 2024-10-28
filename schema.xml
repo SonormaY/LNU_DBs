@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE supermarket_data SYSTEM "schema.dtd">
+<supermarket_data version="1.0">
+  <order order_id="1001">
+    <date>2024-10-04</date>
+    <customer customer_id="101">
+      <name>Іван</name>
+      <surname>Петренко</surname>
+      <discount>0.05</discount>
+      <contact type="phone">+380501234567</contact>
+      <contact type="email">ivan.petrenko@example.com</contact>
+    </customer>
+    <order_details>
+      <product product_id="2001">
+        <title>Молоко</title>
+        <category>Молочні продукти</category>
+        <manufacturer>МолокоФерма</manufacturer>
+        <price>25.50</price>
+        <discount_price>24.23</discount_price>
+        <quantity>2</quantity>
+      </product>
+      <product product_id="3001">
+        <title>Хліб</title>
+        <category>Випічка</category>
+        <manufacturer>ХлібЗавод</manufacturer>
+        <price>15.00</price>
+        <discount_price>14.25</discount_price>
+        <quantity>1</quantity>
+      </product>
+    </order_details>
+    <total_amount>62.71</total_amount>
+  </order>
+</supermarket_data>

@@ -1,0 +1,90 @@
+<supermarket_data version="1.0">
+  <order order_id="1">
+    <date>2024-09-17</date>
+    <customer customer_id="1">
+      <name>John</name>
+      <surname>Doe</surname>
+      <discount>0.05</discount>
+      <contact type="Phone">555-1234</contact>
+      <contact type="Email">john.doe@email.com</contact>
+    </customer>
+    <order_details>
+      <product product_id="4">
+        <title>Milk</title>
+        <category>Dairy</category>
+        <manufacturer>DairyBest</manufacturer>
+        <price>2.5</price>
+        <discount_price>2.375</discount_price>
+        <quantity>1</quantity>
+      </product>
+      <product product_id="1">
+        <title>Apple</title>
+        <category>Fruits</category>
+        <manufacturer>FreshFarms</manufacturer>
+        <price>0.5</price>
+        <discount_price>0.475</discount_price>
+        <quantity>5</quantity>
+      </product>
+    </order_details>
+    <total_amount>4.749999970197678</total_amount>
+  </order>
+  <order order_id="2">
+    <date>2024-09-17</date>
+    <customer customer_id="2">
+      <name>Jane</name>
+      <surname>Smith</surname>
+      <discount>0.1</discount>
+      <contact type="Phone">555-5678 </contact>
+      <contact type="Email">jane.smith@email.com</contact>
+    </customer>
+    <order_details>
+      <product product_id="5">
+        <title>Bread</title>
+        <category>Bakery</category>
+        <manufacturer>BakerDelight</manufacturer>
+        <price>1.5</price>
+        <discount_price>1.35</discount_price>
+        <quantity>2</quantity>
+      </product>
+      <product product_id="2">
+        <title>Banana</title>
+        <category>Fruits</category>
+        <manufacturer>FreshFarms</manufacturer>
+        <price>0.3</price>
+        <discount_price>0.27</discount_price>
+        <quantity>3</quantity>
+      </product>
+    </order_details>
+    <total_amount>3.510000079870224</total_amount>
+  </order>
+  <order order_id="3">
+    <date>2024-09-24</date>
+    <customer customer_id="5">
+      <name>Олена</name>
+      <surname>Петренко </surname>
+      <discount>0.05</discount>
+      <contact type="Phone">050-123-4567</contact>
+      <contact type="Email">olena.petrenko@email.com</contact>
+    </customer>
+    <order_details>
+      <product product_id="4">
+        <title>Milk</title>
+        <category>Dairy</category>
+        <manufacturer>DairyBest</manufacturer>
+        <price>2.5</price>
+        <discount_price>2.375</discount_price>
+        <quantity>2</quantity>
+      </product>
+      <product product_id="1">
+        <title>Apple</title>
+        <category>Fruits   </category>
+        <manufacturer>FreshFarms</manufacturer>
+        <price>0.5</price>
+        <discount_price>0.475</discount_price>
+        <quantity>5</quantity>
+      </product>
+    </order_details>
+    <total_amount>7.124999970197678</total_amount>
+  </order>
+</supermarket_data>
+
